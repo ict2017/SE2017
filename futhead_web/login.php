@@ -132,6 +132,7 @@ span.psw {
     <input type="password" placeholder="Enter Password" name="password" required>
 
     <button type="submit">Login</button>
+	<button type="register" onclick="location.href='register.php';">Register</button>
   </div>
 
   <div class="container" style="background-color:#f1f1f1">
