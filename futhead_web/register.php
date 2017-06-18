@@ -28,7 +28,7 @@
       $dbh->exec($sql2);
 	  
 	  $_SESSION['login_user'] = $myusername;
-	  $_SESSION['type'] = $row['type'];
+	  $_SESSION['type'] = $type;
 	  if($type == "Admin"){
 		 header("location: admin/index.php");
 	  }else{
